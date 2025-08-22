@@ -1,0 +1,12 @@
+# A simple mesh file
+# Format: ID, X, Y, Z
+NODES 4
+1 0.0 0.0 0.0
+2 1.0 0.0 0.0
+3 1.0 1.0 0.0
+4 0.0 1.0 0.0
+
+# Format: ID, TYPE, N1, N2, N3, N4
+ELEMENTS 2
+1 4 1 2 3 4
+2 4 1 2 4 3
